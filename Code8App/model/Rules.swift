@@ -7,6 +7,12 @@
 
 import UIKit
 
-class Rules: NSObject {
-
+class Rules: Codable {
+    var title : String
+    var desc : String
+    
+    init(title: String, desc: String) {
+        self.title = title
+        self.desc = desc
+    }
 }

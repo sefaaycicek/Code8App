@@ -8,5 +8,7 @@
 import UIKit
 
 class CacheManager: NSObject {
-
+    static var shared : CacheManager = CacheManager()
+    
+    var cachedTeamlist : [Team] = []
 }

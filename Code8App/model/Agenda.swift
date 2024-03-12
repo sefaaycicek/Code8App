@@ -7,6 +7,14 @@
 
 import UIKit
 
-class Agenda: NSObject {
-
+class Agenda: Codable {
+    var starttime : Double
+    var endtime : Double
+    var title : String
+    
+    init(starttime: Double, endtime: Double, title: String) {
+        self.starttime = starttime
+        self.endtime = endtime
+        self.title = title
+    }
 }

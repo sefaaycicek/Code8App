@@ -9,4 +9,9 @@ import UIKit
 
 class HomeViewModel: NSObject {
 
+    func prepareReadyData() {
+        FirebaseDataManager.shared.getTeams { teamList in
+            
+        }
+    }
 }

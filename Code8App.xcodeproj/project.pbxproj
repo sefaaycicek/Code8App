@@ -7,15 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A32B0B1AB9DA2E069A3CAF3 /* Pods_Code8App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D83E8F41A7EE80B3FDC01D /* Pods_Code8App.framework */; };
+		DC572E0D2BA055DF0021E464 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC572E0C2BA055DF0021E464 /* CacheManager.swift */; };
+		DC88B3402BA04DFA007567D8 /* AgendaSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88B33F2BA04DFA007567D8 /* AgendaSummaryCell.swift */; };
+		DC88B3422BA04F39007567D8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88B3412BA04F39007567D8 /* HomeViewModel.swift */; };
+		DC88B3452BA04F62007567D8 /* FirebaseDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88B3442BA04F62007567D8 /* FirebaseDataManager.swift */; };
 		DCE009B52BA02EC000403574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE009B42BA02EC000403574 /* AppDelegate.swift */; };
 		DCE009B72BA02EC000403574 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE009B62BA02EC000403574 /* SceneDelegate.swift */; };
 		DCE009B92BA02EC000403574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE009B82BA02EC000403574 /* ViewController.swift */; };
 		DCE009BC2BA02EC000403574 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DCE009BB2BA02EC000403574 /* Base */; };
 		DCE009BE2BA02EC100403574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE009BD2BA02EC100403574 /* Assets.xcassets */; };
 		DCE009C12BA02EC100403574 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DCE009C02BA02EC100403574 /* Base */; };
+		DCE009C92BA02F2D00403574 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCE009C82BA02F2D00403574 /* GoogleService-Info.plist */; };
+		DCE009CC2BA0307800403574 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DCE009CB2BA0307800403574 /* FirebaseAnalytics */; };
+		DCE009CE2BA0307800403574 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DCE009CD2BA0307800403574 /* FirebaseAnalyticsSwift */; };
+		DCE009D02BA0307800403574 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DCE009CF2BA0307800403574 /* FirebaseAuth */; };
+		DCE009D22BA0307800403574 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = DCE009D12BA0307800403574 /* FirebaseCrashlytics */; };
+		DCE009D42BA0307800403574 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DCE009D32BA0307800403574 /* FirebaseFirestore */; };
+		DCE009D62BA0307800403574 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DCE009D52BA0307800403574 /* FirebaseFirestoreSwift */; };
+		DCE009D82BA0307800403574 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = DCE009D72BA0307800403574 /* FirebaseMessaging */; };
+		DCE009DA2BA0307800403574 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DCE009D92BA0307800403574 /* FirebaseStorage */; };
+		DCE009DC2BA0307800403574 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = DCE009DB2BA0307800403574 /* FirebaseStorageCombine-Community */; };
+		DCE009DF2BA0327D00403574 /* Agenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE009DE2BA0327D00403574 /* Agenda.swift */; };
+		DCE009E12BA0337300403574 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE009E02BA0337300403574 /* Rules.swift */; };
+		DCE009E32BA033AD00403574 /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE009E22BA033AD00403574 /* Teams.swift */; };
+		DCE009E52BA034A700403574 /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE009E42BA034A700403574 /* Projects.swift */; };
+		DCE009EF2BA0409700403574 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE009ED2BA0409700403574 /* IntroViewController.swift */; };
+		DCE009F32BA040A500403574 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE009F12BA040A500403574 /* HomeViewController.swift */; };
+		DCE009F72BA040B000403574 /* AgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE009F52BA040B000403574 /* AgendaViewController.swift */; };
+		DCE009FA2BA0411D00403574 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE009F92BA0411D00403574 /* Home.storyboard */; };
+		DCE009FD2BA0415E00403574 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE009FC2BA0415E00403574 /* InfoViewController.swift */; };
+		DCE00A002BA041D300403574 /* StoryBoardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE009FF2BA041D300403574 /* StoryBoardManager.swift */; };
+		DCE00A022BA0425900403574 /* MyTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE00A012BA0425900403574 /* MyTabbarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48D83E8F41A7EE80B3FDC01D /* Pods_Code8App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Code8App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		833CAC1024D4A36CBCD922B9 /* Pods-Code8App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code8App.debug.xcconfig"; path = "Target Support Files/Pods-Code8App/Pods-Code8App.debug.xcconfig"; sourceTree = "<group>"; };
+		960F60566C92EB2696BA39E7 /* Pods-Code8App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code8App.release.xcconfig"; path = "Target Support Files/Pods-Code8App/Pods-Code8App.release.xcconfig"; sourceTree = "<group>"; };
+		DC572E0C2BA055DF0021E464 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		DC88B33F2BA04DFA007567D8 /* AgendaSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaSummaryCell.swift; sourceTree = "<group>"; };
+		DC88B3412BA04F39007567D8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DC88B3442BA04F62007567D8 /* FirebaseDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDataManager.swift; sourceTree = "<group>"; };
 		DCE009B12BA02EC000403574 /* Code8App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Code8App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE009B42BA02EC000403574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE009B62BA02EC000403574 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +57,18 @@
 		DCE009BD2BA02EC100403574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCE009C02BA02EC100403574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCE009C22BA02EC100403574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE009C82BA02F2D00403574 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCE009DE2BA0327D00403574 /* Agenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agenda.swift; sourceTree = "<group>"; };
+		DCE009E02BA0337300403574 /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		DCE009E22BA033AD00403574 /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		DCE009E42BA034A700403574 /* Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
+		DCE009ED2BA0409700403574 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		DCE009F12BA040A500403574 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DCE009F52BA040B000403574 /* AgendaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaViewController.swift; sourceTree = "<group>"; };
+		DCE009F92BA0411D00403574 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		DCE009FC2BA0415E00403574 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		DCE009FF2BA041D300403574 /* StoryBoardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoardManager.swift; sourceTree = "<group>"; };
+		DCE00A012BA0425900403574 /* MyTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +76,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE009CE2BA0307800403574 /* FirebaseAnalyticsSwift in Frameworks */,
+				DCE009D22BA0307800403574 /* FirebaseCrashlytics in Frameworks */,
+				DCE009D82BA0307800403574 /* FirebaseMessaging in Frameworks */,
+				DCE009D02BA0307800403574 /* FirebaseAuth in Frameworks */,
+				DCE009D42BA0307800403574 /* FirebaseFirestore in Frameworks */,
+				DCE009DA2BA0307800403574 /* FirebaseStorage in Frameworks */,
+				DCE009CC2BA0307800403574 /* FirebaseAnalytics in Frameworks */,
+				DCE009DC2BA0307800403574 /* FirebaseStorageCombine-Community in Frameworks */,
+				DCE009D62BA0307800403574 /* FirebaseFirestoreSwift in Frameworks */,
+				0A32B0B1AB9DA2E069A3CAF3 /* Pods_Code8App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18588422C4FE01B1339B87E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				833CAC1024D4A36CBCD922B9 /* Pods-Code8App.debug.xcconfig */,
+				960F60566C92EB2696BA39E7 /* Pods-Code8App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B40FE3EE54600970BB01EED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48D83E8F41A7EE80B3FDC01D /* Pods_Code8App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC88B33E2BA04DDF007567D8 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				DC88B33F2BA04DFA007567D8 /* AgendaSummaryCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		DC88B3432BA04F4C007567D8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DC88B3442BA04F62007567D8 /* FirebaseDataManager.swift */,
+				DC572E0C2BA055DF0021E464 /* CacheManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		DCE009A82BA02EC000403574 = {
 			isa = PBXGroup;
 			children = (
 				DCE009B32BA02EC000403574 /* Code8App */,
 				DCE009B22BA02EC000403574 /* Products */,
+				18588422C4FE01B1339B87E8 /* Pods */,
+				5B40FE3EE54600970BB01EED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +147,94 @@
 		DCE009B32BA02EC000403574 /* Code8App */ = {
 			isa = PBXGroup;
 			children = (
+				DC88B3432BA04F4C007567D8 /* Data */,
+				DCE009FE2BA041CD00403574 /* util */,
+				DCE009E62BA03FE400403574 /* features */,
+				DCE009DD2BA0326A00403574 /* model */,
+				DCE009C82BA02F2D00403574 /* GoogleService-Info.plist */,
 				DCE009B42BA02EC000403574 /* AppDelegate.swift */,
 				DCE009B62BA02EC000403574 /* SceneDelegate.swift */,
-				DCE009B82BA02EC000403574 /* ViewController.swift */,
 				DCE009BA2BA02EC000403574 /* Main.storyboard */,
+				DCE009F92BA0411D00403574 /* Home.storyboard */,
 				DCE009BD2BA02EC100403574 /* Assets.xcassets */,
 				DCE009BF2BA02EC100403574 /* LaunchScreen.storyboard */,
 				DCE009C22BA02EC100403574 /* Info.plist */,
 			);
 			path = Code8App;
+			sourceTree = "<group>";
+		};
+		DCE009DD2BA0326A00403574 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DCE009DE2BA0327D00403574 /* Agenda.swift */,
+				DCE009E02BA0337300403574 /* Rules.swift */,
+				DCE009E22BA033AD00403574 /* Teams.swift */,
+				DCE009E42BA034A700403574 /* Projects.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DCE009E62BA03FE400403574 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				DCE009FB2BA0415200403574 /* info */,
+				DCE009EA2BA0402C00403574 /* agenda */,
+				DCE009E92BA0402000403574 /* home */,
+				DCE009E82BA0401000403574 /* intro */,
+				DCE009E72BA03FEB00403574 /* main */,
+				DCE00A012BA0425900403574 /* MyTabbarController.swift */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		DCE009E72BA03FEB00403574 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				DCE009B82BA02EC000403574 /* ViewController.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		DCE009E82BA0401000403574 /* intro */ = {
+			isa = PBXGroup;
+			children = (
+				DCE009ED2BA0409700403574 /* IntroViewController.swift */,
+			);
+			path = intro;
+			sourceTree = "<group>";
+		};
+		DCE009E92BA0402000403574 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				DC88B33E2BA04DDF007567D8 /* cells */,
+				DCE009F12BA040A500403574 /* HomeViewController.swift */,
+				DC88B3412BA04F39007567D8 /* HomeViewModel.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		DCE009EA2BA0402C00403574 /* agenda */ = {
+			isa = PBXGroup;
+			children = (
+				DCE009F52BA040B000403574 /* AgendaViewController.swift */,
+			);
+			path = agenda;
+			sourceTree = "<group>";
+		};
+		DCE009FB2BA0415200403574 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				DCE009FC2BA0415E00403574 /* InfoViewController.swift */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		DCE009FE2BA041CD00403574 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				DCE009FF2BA041D300403574 /* StoryBoardManager.swift */,
+			);
+			path = util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +244,28 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCE009C52BA02EC100403574 /* Build configuration list for PBXNativeTarget "Code8App" */;
 			buildPhases = (
+				31DF6CD66D8F76C6FD8F398A /* [CP] Check Pods Manifest.lock */,
 				DCE009AD2BA02EC000403574 /* Sources */,
 				DCE009AE2BA02EC000403574 /* Frameworks */,
 				DCE009AF2BA02EC000403574 /* Resources */,
+				E7F5FBD35875931CCC7CE9C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Code8App;
+			packageProductDependencies = (
+				DCE009CB2BA0307800403574 /* FirebaseAnalytics */,
+				DCE009CD2BA0307800403574 /* FirebaseAnalyticsSwift */,
+				DCE009CF2BA0307800403574 /* FirebaseAuth */,
+				DCE009D12BA0307800403574 /* FirebaseCrashlytics */,
+				DCE009D32BA0307800403574 /* FirebaseFirestore */,
+				DCE009D52BA0307800403574 /* FirebaseFirestoreSwift */,
+				DCE009D72BA0307800403574 /* FirebaseMessaging */,
+				DCE009D92BA0307800403574 /* FirebaseStorage */,
+				DCE009DB2BA0307800403574 /* FirebaseStorageCombine-Community */,
+			);
 			productName = Code8App;
 			productReference = DCE009B12BA02EC000403574 /* Code8App.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +294,9 @@
 				Base,
 			);
 			mainGroup = DCE009A82BA02EC000403574;
+			packageReferences = (
+				DCE009CA2BA0307800403574 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = DCE009B22BA02EC000403574 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,20 +313,78 @@
 			files = (
 				DCE009BE2BA02EC100403574 /* Assets.xcassets in Resources */,
 				DCE009C12BA02EC100403574 /* Base in Resources */,
+				DCE009C92BA02F2D00403574 /* GoogleService-Info.plist in Resources */,
 				DCE009BC2BA02EC000403574 /* Base in Resources */,
+				DCE009FA2BA0411D00403574 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31DF6CD66D8F76C6FD8F398A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Code8App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F5FBD35875931CCC7CE9C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Code8App/Pods-Code8App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Code8App/Pods-Code8App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Code8App/Pods-Code8App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DCE009AD2BA02EC000403574 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE009E52BA034A700403574 /* Projects.swift in Sources */,
+				DCE009FD2BA0415E00403574 /* InfoViewController.swift in Sources */,
+				DCE00A002BA041D300403574 /* StoryBoardManager.swift in Sources */,
+				DC572E0D2BA055DF0021E464 /* CacheManager.swift in Sources */,
+				DCE009E32BA033AD00403574 /* Teams.swift in Sources */,
 				DCE009B92BA02EC000403574 /* ViewController.swift in Sources */,
 				DCE009B52BA02EC000403574 /* AppDelegate.swift in Sources */,
+				DCE00A022BA0425900403574 /* MyTabbarController.swift in Sources */,
 				DCE009B72BA02EC000403574 /* SceneDelegate.swift in Sources */,
+				DCE009F32BA040A500403574 /* HomeViewController.swift in Sources */,
+				DCE009DF2BA0327D00403574 /* Agenda.swift in Sources */,
+				DC88B3452BA04F62007567D8 /* FirebaseDataManager.swift in Sources */,
+				DCE009E12BA0337300403574 /* Rules.swift in Sources */,
+				DCE009F72BA040B000403574 /* AgendaViewController.swift in Sources */,
+				DC88B3402BA04DFA007567D8 /* AgendaSummaryCell.swift in Sources */,
+				DC88B3422BA04F39007567D8 /* HomeViewModel.swift in Sources */,
+				DCE009EF2BA0409700403574 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +531,14 @@
 		};
 		DCE009C62BA02EC100403574 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 833CAC1024D4A36CBCD922B9 /* Pods-Code8App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y7653CXCKR;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Code8App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,12 +561,14 @@
 		};
 		DCE009C72BA02EC100403574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960F60566C92EB2696BA39E7 /* Pods-Code8App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y7653CXCKR;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Code8App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -363,6 +611,65 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DCE009CA2BA0307800403574 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DCE009CB2BA0307800403574 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE009CA2BA0307800403574 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DCE009CD2BA0307800403574 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE009CA2BA0307800403574 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		DCE009CF2BA0307800403574 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE009CA2BA0307800403574 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DCE009D12BA0307800403574 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE009CA2BA0307800403574 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		DCE009D32BA0307800403574 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE009CA2BA0307800403574 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DCE009D52BA0307800403574 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE009CA2BA0307800403574 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		DCE009D72BA0307800403574 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE009CA2BA0307800403574 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		DCE009D92BA0307800403574 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE009CA2BA0307800403574 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		DCE009DB2BA0307800403574 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE009CA2BA0307800403574 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DCE009A92BA02EC000403574 /* Project object */;
 }

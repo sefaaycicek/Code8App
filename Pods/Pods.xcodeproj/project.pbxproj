@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17CC10E0C84DB0E27B8C2A376DD3B62D /* FirestoreEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2523C4214495DFB9382AC11787C944 /* FirestoreEncoder.swift */; };
+		22DA77312FAD6FB0387ED13712F8E627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3FC2899F8B27DBC94D3F92170316F1CC /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C4721B2D8519AE0677C3490E4C6B /* Encoder.swift */; };
+		803F1EC242D24C82B50B714E4FCF09A5 /* Pods-Code8App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD74B9F087C407E52832BCCE261C0B88 /* Pods-Code8App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82DE8117A8BBFCF8006B210146944671 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20A75C4B9C4C54E5DD7251E4BB900F /* Decoder.swift */; };
+		84D7B64918A53463B3CE311CE893E18C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		85C7B677D49ECD7EFF2013BCE03AC4C6 /* FirestoreDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9DA1FD4555BB6048774B09900A6662 /* FirestoreDecoder.swift */; };
+		9666A33352A76C48FBD8CA6F65595699 /* FirebaseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B148ED1BA1AF1F499E763ED1A2411DE /* FirebaseDecoder.swift */; };
+		B0D0C18E2A077CB521A3B7A00B3119A7 /* CodableFirebase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5E99B3BA56A80CA8D19C30A97834A4 /* CodableFirebase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D41966940750C24DF4DB2A850954F2F3 /* Pods-Code8App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C70B24248AB56FCBBE6AC6D7E3AE0A /* Pods-Code8App-dummy.m */; };
+		DC1223D41E0730D6161703303B2655B0 /* FirebaseEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C1BFAAF301BE2FF06540DF8ECB1031 /* FirebaseEncoder.swift */; };
+		ECC05A43A78E3F58A241E92371B9B12C /* CodableFirebase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5F7A077DD92657D6C7EEA21503AE9F /* CodableFirebase-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C38BF775A687688AA0E55AC576D96F12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E348382FA7E1F8A639AFBFF3F8C4FC04;
+			remoteInfo = CodableFirebase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B3187FBEB607246C030A4B3AD1E428A /* Pods-Code8App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Code8App-frameworks.sh"; sourceTree = "<group>"; };
+		2D1F19FDE56B1298441E225BEE12196E /* Pods-Code8App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Code8App.release.xcconfig"; sourceTree = "<group>"; };
+		3B74476A43175B09EA751C2595E1D9D2 /* Pods-Code8App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Code8App-Info.plist"; sourceTree = "<group>"; };
+		475EA0F82A5E33C6AF6965CDB66F68A3 /* CodableFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CodableFirebase.release.xcconfig; sourceTree = "<group>"; };
+		4A94FC58A21534580DADDEF0DD4CCDB9 /* CodableFirebase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CodableFirebase; path = CodableFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5FCDD7584E48257C03128E6069990F /* Pods-Code8App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Code8App"; path = Pods_Code8App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B42338732381BF30D55BB0BDB2DCA9 /* Pods-Code8App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Code8App-acknowledgements.plist"; sourceTree = "<group>"; };
+		58684AA03E8976981239BC7DBBA42B30 /* CodableFirebase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CodableFirebase-prefix.pch"; sourceTree = "<group>"; };
+		6C2523C4214495DFB9382AC11787C944 /* FirestoreEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirestoreEncoder.swift; path = CodableFirebase/FirestoreEncoder.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B148ED1BA1AF1F499E763ED1A2411DE /* FirebaseDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirebaseDecoder.swift; path = CodableFirebase/FirebaseDecoder.swift; sourceTree = "<group>"; };
+		81B0C4721B2D8519AE0677C3490E4C6B /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = CodableFirebase/Encoder.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B095273A490C49951F51010B277DB8C7 /* CodableFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CodableFirebase.debug.xcconfig; sourceTree = "<group>"; };
+		B488E0A774C0DA307D71B3C1BDFCADF2 /* Pods-Code8App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Code8App.modulemap"; sourceTree = "<group>"; };
+		BA5E99B3BA56A80CA8D19C30A97834A4 /* CodableFirebase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CodableFirebase-umbrella.h"; sourceTree = "<group>"; };
+		BD74B9F087C407E52832BCCE261C0B88 /* Pods-Code8App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Code8App-umbrella.h"; sourceTree = "<group>"; };
+		C0C70B24248AB56FCBBE6AC6D7E3AE0A /* Pods-Code8App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Code8App-dummy.m"; sourceTree = "<group>"; };
+		C5BD22CC6B2FBCBB6EBDBEEB1B9AAE0D /* CodableFirebase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CodableFirebase.modulemap; sourceTree = "<group>"; };
+		C6C1BFAAF301BE2FF06540DF8ECB1031 /* FirebaseEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirebaseEncoder.swift; path = CodableFirebase/FirebaseEncoder.swift; sourceTree = "<group>"; };
+		C7E5ABB86C22F1A8FCEAF8093BC66BE1 /* Pods-Code8App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Code8App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC692CCA5E0D46E68F4F33B538735B32 /* CodableFirebase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CodableFirebase-Info.plist"; sourceTree = "<group>"; };
+		CE9DA1FD4555BB6048774B09900A6662 /* FirestoreDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirestoreDecoder.swift; path = CodableFirebase/FirestoreDecoder.swift; sourceTree = "<group>"; };
+		D13B08270996C848AD01DACDE6EEE0CD /* Pods-Code8App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Code8App.debug.xcconfig"; sourceTree = "<group>"; };
+		EB5F7A077DD92657D6C7EEA21503AE9F /* CodableFirebase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CodableFirebase-dummy.m"; sourceTree = "<group>"; };
+		FD20A75C4B9C4C54E5DD7251E4BB900F /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = CodableFirebase/Decoder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E26D29FF592A351A4FF838698D0564A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DA77312FAD6FB0387ED13712F8E627 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA29EA46811B13A91C80F5D56ACF1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D7B64918A53463B3CE311CE893E18C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD521059E8E6BEF8BCEA2593C6D7F63 /* Pods-Code8App */ = {
+			isa = PBXGroup;
+			children = (
+				B488E0A774C0DA307D71B3C1BDFCADF2 /* Pods-Code8App.modulemap */,
+				C7E5ABB86C22F1A8FCEAF8093BC66BE1 /* Pods-Code8App-acknowledgements.markdown */,
+				57B42338732381BF30D55BB0BDB2DCA9 /* Pods-Code8App-acknowledgements.plist */,
+				C0C70B24248AB56FCBBE6AC6D7E3AE0A /* Pods-Code8App-dummy.m */,
+				1B3187FBEB607246C030A4B3AD1E428A /* Pods-Code8App-frameworks.sh */,
+				3B74476A43175B09EA751C2595E1D9D2 /* Pods-Code8App-Info.plist */,
+				BD74B9F087C407E52832BCCE261C0B88 /* Pods-Code8App-umbrella.h */,
+				D13B08270996C848AD01DACDE6EEE0CD /* Pods-Code8App.debug.xcconfig */,
+				2D1F19FDE56B1298441E225BEE12196E /* Pods-Code8App.release.xcconfig */,
+			);
+			name = "Pods-Code8App";
+			path = "Target Support Files/Pods-Code8App";
+			sourceTree = "<group>";
+		};
+		4A31E505496E1183223DAFACE471B351 /* CodableFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				FD20A75C4B9C4C54E5DD7251E4BB900F /* Decoder.swift */,
+				81B0C4721B2D8519AE0677C3490E4C6B /* Encoder.swift */,
+				7B148ED1BA1AF1F499E763ED1A2411DE /* FirebaseDecoder.swift */,
+				C6C1BFAAF301BE2FF06540DF8ECB1031 /* FirebaseEncoder.swift */,
+				CE9DA1FD4555BB6048774B09900A6662 /* FirestoreDecoder.swift */,
+				6C2523C4214495DFB9382AC11787C944 /* FirestoreEncoder.swift */,
+				BF09CF01A1E97698EA5E3F72014AEB93 /* Support Files */,
+			);
+			name = CodableFirebase;
+			path = CodableFirebase;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		59FE7D09C42F9EA30A960549C4D0D92E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A94FC58A21534580DADDEF0DD4CCDB9 /* CodableFirebase */,
+				4B5FCDD7584E48257C03128E6069990F /* Pods-Code8App */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7929E44533BBA696BFAD792D8E254B1D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CD521059E8E6BEF8BCEA2593C6D7F63 /* Pods-Code8App */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF09CF01A1E97698EA5E3F72014AEB93 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5BD22CC6B2FBCBB6EBDBEEB1B9AAE0D /* CodableFirebase.modulemap */,
+				EB5F7A077DD92657D6C7EEA21503AE9F /* CodableFirebase-dummy.m */,
+				CC692CCA5E0D46E68F4F33B538735B32 /* CodableFirebase-Info.plist */,
+				58684AA03E8976981239BC7DBBA42B30 /* CodableFirebase-prefix.pch */,
+				BA5E99B3BA56A80CA8D19C30A97834A4 /* CodableFirebase-umbrella.h */,
+				B095273A490C49951F51010B277DB8C7 /* CodableFirebase.debug.xcconfig */,
+				475EA0F82A5E33C6AF6965CDB66F68A3 /* CodableFirebase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CodableFirebase";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EBA3918496F8E8DE11D6E190526A5D67 /* Pods */,
+				59FE7D09C42F9EA30A960549C4D0D92E /* Products */,
+				7929E44533BBA696BFAD792D8E254B1D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBA3918496F8E8DE11D6E190526A5D67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A31E505496E1183223DAFACE471B351 /* CodableFirebase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AC2190B8A2E82AD6DA476A85A6B59063 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803F1EC242D24C82B50B714E4FCF09A5 /* Pods-Code8App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BB1F23A2B4F51E07C374219E7CC26F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D0C18E2A077CB521A3B7A00B3119A7 /* CodableFirebase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E348382FA7E1F8A639AFBFF3F8C4FC04 /* CodableFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E678CFE41C46DC7A943744D419D35091 /* Build configuration list for PBXNativeTarget "CodableFirebase" */;
+			buildPhases = (
+				B4BB1F23A2B4F51E07C374219E7CC26F /* Headers */,
+				BFE02291322A8BD13E06140CB1A867EC /* Sources */,
+				4E26D29FF592A351A4FF838698D0564A /* Frameworks */,
+				9FABBA90479555F942DF02BC252DE9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodableFirebase;
+			productName = CodableFirebase;
+			productReference = 4A94FC58A21534580DADDEF0DD4CCDB9 /* CodableFirebase */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8E046C81E2A3E72F938657A5BF652F2 /* Pods-Code8App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B600C54BFCB3D0C8D0FDA437DB49569 /* Build configuration list for PBXNativeTarget "Pods-Code8App" */;
+			buildPhases = (
+				AC2190B8A2E82AD6DA476A85A6B59063 /* Headers */,
+				E15049750E5F6BEE8F140EF6B73EEF35 /* Sources */,
+				6FA29EA46811B13A91C80F5D56ACF1DF /* Frameworks */,
+				BE9A9C3340230CC6B1DE7A48871622D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2BB7E08F61B20055C82A1D19E4335C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Code8App";
+			productName = Pods_Code8App;
+			productReference = 4B5FCDD7584E48257C03128E6069990F /* Pods-Code8App */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 59FE7D09C42F9EA30A960549C4D0D92E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E348382FA7E1F8A639AFBFF3F8C4FC04 /* CodableFirebase */,
+				E8E046C81E2A3E72F938657A5BF652F2 /* Pods-Code8App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FABBA90479555F942DF02BC252DE9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9A9C3340230CC6B1DE7A48871622D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE02291322A8BD13E06140CB1A867EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC05A43A78E3F58A241E92371B9B12C /* CodableFirebase-dummy.m in Sources */,
+				82DE8117A8BBFCF8006B210146944671 /* Decoder.swift in Sources */,
+				3FC2899F8B27DBC94D3F92170316F1CC /* Encoder.swift in Sources */,
+				9666A33352A76C48FBD8CA6F65595699 /* FirebaseDecoder.swift in Sources */,
+				DC1223D41E0730D6161703303B2655B0 /* FirebaseEncoder.swift in Sources */,
+				85C7B677D49ECD7EFF2013BCE03AC4C6 /* FirestoreDecoder.swift in Sources */,
+				17CC10E0C84DB0E27B8C2A376DD3B62D /* FirestoreEncoder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15049750E5F6BEE8F140EF6B73EEF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41966940750C24DF4DB2A850954F2F3 /* Pods-Code8App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2BB7E08F61B20055C82A1D19E4335C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CodableFirebase;
+			target = E348382FA7E1F8A639AFBFF3F8C4FC04 /* CodableFirebase */;
+			targetProxy = C38BF775A687688AA0E55AC576D96F12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		894E975794DFDD8E4A37E63C86E6FED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1F19FDE56B1298441E225BEE12196E /* Pods-Code8App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Code8App/Pods-Code8App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Code8App/Pods-Code8App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2000020FB49AEE26CC8987FE10B5D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13B08270996C848AD01DACDE6EEE0CD /* Pods-Code8App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Code8App/Pods-Code8App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Code8App/Pods-Code8App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC797AB1D5D94EBE6E44E33216D8FF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475EA0F82A5E33C6AF6965CDB66F68A3 /* CodableFirebase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CodableFirebase/CodableFirebase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CodableFirebase/CodableFirebase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CodableFirebase/CodableFirebase.modulemap";
+				PRODUCT_MODULE_NAME = CodableFirebase;
+				PRODUCT_NAME = CodableFirebase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C873D3C071BDDC046D6E8F63C69C2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CC37103064E5B9675ADA21526E6A75C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B095273A490C49951F51010B277DB8C7 /* CodableFirebase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CodableFirebase/CodableFirebase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CodableFirebase/CodableFirebase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CodableFirebase/CodableFirebase.modulemap";
+				PRODUCT_MODULE_NAME = CodableFirebase;
+				PRODUCT_NAME = CodableFirebase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */,
+				C873D3C071BDDC046D6E8F63C69C2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B600C54BFCB3D0C8D0FDA437DB49569 /* Build configuration list for PBXNativeTarget "Pods-Code8App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2000020FB49AEE26CC8987FE10B5D17 /* Debug */,
+				894E975794DFDD8E4A37E63C86E6FED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E678CFE41C46DC7A943744D419D35091 /* Build configuration list for PBXNativeTarget "CodableFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC37103064E5B9675ADA21526E6A75C7 /* Debug */,
+				BC797AB1D5D94EBE6E44E33216D8FF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

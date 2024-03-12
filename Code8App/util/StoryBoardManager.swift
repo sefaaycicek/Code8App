@@ -9,7 +9,7 @@ import UIKit
 
 enum StoryBoardManager : String {
     case main = "Main"
-    case payment = "Payment"
+    case home = "Home"
     
     var instance : UIStoryboard{
         return UIStoryboard(name: self.rawValue, bundle: Bundle.main)
